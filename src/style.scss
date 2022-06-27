@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  flex: 1 1 50%;
+  height: 100%;
+  padding: 5px;
+}
+
+.list-left {
+  background-color: #f1c40f;
+}
+
+.list-right {
+  background-color: #e67e22
+}
+
+
+li {
+  background-color: #8e44ad;
+  padding: 15px;
+  color: white;
+
+}
+
+
+.drag {
+  background-color: #2ecc71
+}
+
+.drop {
+  border: 2px dashed red
+}
